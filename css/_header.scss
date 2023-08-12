@@ -107,7 +107,7 @@
         width: 40vh;
         height: 40vh;
         // background-color: aquamarine;
-        background-image: url(/img/667CF5CE-0C3B-401D-87DB-08D00C4E2966.jpg);
+        background-image: url(img/667CF5CE-0C3B-401D-87DB-08D00C4E2966.jpg);
         background-size: cover;
         border-radius: 500px;
         margin: 50px 0;
@@ -209,10 +209,13 @@
 
 footer {
     padding-right: 300px;
-    background-color: aqua;
+    background-color: #F1F2F3;
 
-    .text-center {
+    p {
         display: flex;
-        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        padding-right: 150px;
+        
     }
 }

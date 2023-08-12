@@ -82,13 +82,12 @@
     max-width: 1920px;
     height: auto;
 
-
+ 
     display: flex;
     flex-direction: column;
     // background-size: cover;
     align-items: center;
-    background-color: rgb(219, 146, 146);
-
+    // background-color: rgb(219, 146, 146);
     padding-right: 150px;
 }
 
@@ -103,7 +102,7 @@
     object-fit: cover;
     width: 1000px;
     position: relative;
- 
+
     .boku_img {
         width: 40vh;
         height: 40vh;
@@ -119,16 +118,16 @@
 
     .boku_txt {
 
-        background-color: rgb(163, 163, 163);
+        // background-color: rgb(163, 163, 163);
 
-       
+
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
-    position: absolute;
-bottom: 100px;
-right: 200px;
+        position: absolute;
+        bottom: 100px;
+        right: 200px;
 
     }
 
@@ -138,14 +137,82 @@ right: 200px;
 
 .container_work {
 
-    background-color: aqua;
+    // background-color: aqua;
     display: flex;
     flex-direction: column;
     align-items: center;
+
     width: 1000px;
+    margin-top: 50px;
+
 
 
     .col {
-        background-color: #F1F2F3;
+        width: 300px;
+    }
+
+
+}
+
+
+
+.expertise {
+    margin-top: 100px;
+    background-color: aquamarine;
+    padding-right: 150px;
+
+    .expertise_top {
+        text-align: center;
+
+    }
+
+    .container {
+        text-align: center;
+
+    }
+
+    svg {
+        width: 50px;
+        height: 50px;
+    }
+
+    img {
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+
+
+
+//按鈕
+
+.list {
+    width: auto;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    // background-color: aqua;
+    padding-right: 150px;
+
+    button {
+        margin: 30px;
+        font-size: 2.4vh;
+    }
+}
+
+
+//底部
+
+footer {
+    padding-right: 300px;
+    background-color: aqua;
+
+    .text-center {
+        display: flex;
+        display: inline-block;
     }
 }

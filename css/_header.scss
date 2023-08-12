@@ -1,3 +1,8 @@
+main {
+    padding-right: 150px;
+}
+
+
 .title_01 {
     svg {
         width: 30%;
@@ -81,14 +86,16 @@
 .container {
     max-width: 1920px;
     height: auto;
-
- 
     display: flex;
     flex-direction: column;
-    // background-size: cover;
     align-items: center;
+
+
     // background-color: rgb(219, 146, 146);
-    padding-right: 150px;
+ 
+ 
+
+
 }
 
 
@@ -107,7 +114,7 @@
         width: 40vh;
         height: 40vh;
         // background-color: aquamarine;
-        background-image: url(/img/667CF5CE-0C3B-401D-87DB-08D00C4E2966.jpg);
+        background-image: url(../img/667CF5CE-0C3B-401D-87DB-08D00C4E2966.jpg);
         background-size: cover;
         border-radius: 500px;
         margin: 50px 0;
@@ -149,6 +156,7 @@
 
     .col {
         width: 300px;
+        border-left: #727272 1px solid;
     }
 
 
@@ -156,10 +164,14 @@
 
 
 
+
+
+//核心工具/擅長工具
+
 .expertise {
-    margin-top: 100px;
-    background-color: aquamarine;
-    padding-right: 150px;
+    margin-top: 200px;
+    // background-color: aquamarine;
+    padding-right: 0px;
 
     .expertise_top {
         text-align: center;
@@ -190,17 +202,17 @@
 
 .list {
     width: auto;
-    height: 300px;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 20vh;
     // background-color: aqua;
-    padding-right: 150px;
+
 
     button {
         margin: 30px;
-        font-size: 2.4vh;
+        font-size: 2vh;
     }
 }
 

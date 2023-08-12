@@ -21,6 +21,10 @@ a {
   text-decoration: none;
 }
 
+main {
+  padding-right: 150px;
+}
+
 .title_01 {
   max-width: 1920px;
   height: 1080px;
@@ -81,7 +85,6 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-right: 150px;
 }
 
 .container_me {
@@ -97,7 +100,7 @@ a {
 .container_me .boku_img {
   width: 40vh;
   height: 40vh;
-  background-image: url(img/667CF5CE-0C3B-401D-87DB-08D00C4E2966.jpg);
+  background-image: url(../img/667CF5CE-0C3B-401D-87DB-08D00C4E2966.jpg);
   background-size: cover;
   border-radius: 500px;
   margin: 50px 0;
@@ -122,12 +125,12 @@ a {
 }
 .container_work .col {
   width: 300px;
+  border-left: #727272 1px solid;
 }
 
 .expertise {
-  margin-top: 100px;
-  background-color: aquamarine;
-  padding-right: 150px;
+  margin-top: 200px;
+  padding-right: 0px;
 }
 .expertise .expertise_top {
   text-align: center;
@@ -146,16 +149,14 @@ a {
 
 .list {
   width: auto;
-  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  padding-right: 150px;
+  height: 20vh;
 }
 .list button {
   margin: 30px;
-  font-size: 2.4vh;
+  font-size: 2vh;
 }
 
 footer {

@@ -219,21 +219,19 @@ main {
 .book {
   width: 100%;
   height: auto;
-  margin-top: 100px;
-  margin: 100px 50px 0 50px;
+  margin: 200px 50px 150px 50px;
   display: flex;
   align-items: end;
-  background-color: aqua;
 }
 .book .bookleft img {
-  width: 35%;
+  width: 60%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.book .bookright .swiper {
-  width: 50%;
-  height: 50px;
+.book .bookright {
+  width: 100%;
+  height: 100%;
 }
 .book .bookright .swiper-slide {
   text-align: center;
@@ -244,11 +242,13 @@ main {
   align-items: center;
 }
 .book .bookright .swiper-slide img {
-  display: block;
   width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  height: 30%;
+  border-radius: 0%;
+  margin-right: 10px;
+}
+.book .bookright .swiper-pagination {
+  display: none;
 }
 
 body {

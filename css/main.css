@@ -217,9 +217,8 @@ main {
 }
 
 .book {
-  width: 100%;
   height: auto;
-  margin: 200px 50px 150px 50px;
+  margin: 200px 0 150px 50px;
   display: flex;
   align-items: end;
 }
@@ -247,8 +246,29 @@ main {
   border-radius: 0%;
   margin-right: 10px;
 }
-.book .bookright .swiper-pagination {
-  display: none;
+
+.container_graphic .row {
+  background-color: chartreuse;
+}
+
+.title_33 {
+  max-width: 1920px;
+  height: 500px;
+}
+.title_33 .title_336 {
+  display: flex;
+  display: inline-block;
+  position: absolute;
+  width: 50%;
+  height: auto;
+  top: 20%;
+  left: 40%;
+}
+.title_33 svg {
+  width: 30%;
+  height: auto;
+  display: flex;
+  align-items: normal;
 }
 
 body {

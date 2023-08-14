@@ -95,7 +95,6 @@ main {
   -o-object-fit: cover;
      object-fit: cover;
   width: 80%;
-  position: relative;
 }
 .container_me .boku_img {
   width: 40vh;
@@ -111,9 +110,7 @@ main {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  position: absolute;
-  bottom: 100px;
-  right: 200px;
+  margin: 80px auto;
 }
 
 .container_work {
@@ -155,7 +152,7 @@ main {
   height: 20vh;
 }
 .list button {
-  margin: 30px;
+  margin: 80px;
   font-size: 2vh;
 }
 
@@ -170,10 +167,29 @@ footer p {
   padding-right: 150px;
 }
 
-main {
-  padding-right: 150px;
+@media (max-width: 1300px) {
+  .title_01 {
+    height: 600px;
+  }
+  .container_me {
+    border-radius: 0 20%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+  }
+  .container_me .boku_img {
+    margin: 0;
+    margin-top: 100px;
+  }
+  .container_work .container_history .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .list button {
+    margin: 20px;
+  }
 }
-
 .title_33 {
   max-width: 1920px;
   height: 500px;

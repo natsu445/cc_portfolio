@@ -83,7 +83,7 @@
 
             <ul class="nav flex-column">
                 <li class="nav-item">
-                    <a class="nav-link active"  aria-current="page" href="#section1" data-target="#section1" > 關於我</a>
+                    <a class="nav-link active"  aria-current="page" href=" #section1" data-target="#section1" > 關於我</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#section2" data-target="#section2">擅長工具<br>核心技能</a>
@@ -107,8 +107,8 @@
     <main>
         <div class="container">
 
-            <div class="container_top">
-                <p  class="m-4 fs-4 fw-bold" id="section1">About me</p>
+            <div class="container_top" id="section1">
+                <p  class="m-4 fs-4 fw-bold" >About me</p>
             </div>
             <div class="container_me">
                 <div class="boku_img"></div>
@@ -126,9 +126,9 @@
                     <p class="m-4 fs-5 fw-bold container_work_top">工作經驗</p>
                 </div>
                 <div>
-                    <div class="container_history">
-                        <div class="row">
-                            <div class="col m-4">
+                    <div class="container_history ">
+                        <div class="row ">
+                            <div class="col m-4  ">
                                 <p class="fs-6 fw-bold">美編設計排版</p>
                                 <p class="fs-6"> (2022/11~2023/05)</p>
                                 <p class="fs-6">日本橋資訊股份有限公司</p>
@@ -154,11 +154,11 @@
 
         <div class="expertise">
             <div class="expertise_top" id="section2"  m-4 fs-5 fw-bold >
-                <p>核心工具/擅長工具</p>
+                <p class="m-4 fs-5 fw-bold container_work_top">核心工具/擅長工具</p>
             </div>
 
             <div class="container">
-                <div class="container_tool row col-lg-4 col-lg-2 m-5 ">
+                <div class="container_tool row col-lg-4 col-sm-4  col-sm-2 m-5 ">
                     <div class="col m-4"><svg xmlns="http://www.w3.org/2000/svg" width="92.934" height="90.635"
                             viewBox="0 0 92.934 90.635">
                             <g id="组_10" data-name="组 10" transform="translate(-879.386 -4380.943)">
@@ -176,7 +176,7 @@
                                     transform="translate(836.811 4284.936)" fill="#001728" />
                             </g>
                         </svg>
-                        <p>Photoshop</p>
+                        <p class="small">Photoshop</p>
                     </div>
                     <div class="col m-4"><svg xmlns="http://www.w3.org/2000/svg" width="93.15" height="90.62"
                             viewBox="0 0 93.15 90.62">
@@ -198,10 +198,10 @@
                                     transform="translate(776.606 4285.179)" fill="#250507" />
                             </g>
                         </svg>
-                        <p>illustrator</p>
+                        <p class="small">illustrator</p>
                     </div>
                     <div class="col m-4"><img src="img/logo/Adobe_Premiere_Pro_CC_icon.svg.png" alt="">
-                        <p>Premiere</p>
+                        <p class="small">Premiere</p>
                     </div>
                     <div class="col m-4"><svg xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink" width="94" height="91" viewBox="0 0 94 91">
@@ -223,16 +223,28 @@
                             </g>
                         </svg>
 
-                        <p>InDesign</p>
+                        <p class="small">InDesign</p>
                     </div>
+                    <div class="col m-4"><img src="img/logo/Adobe_XD_CC_icon.svg.png" alt="">
+                        <p>XD</p>
+                    </div>
+                    <div class="col m-4"><img src="img/logo/figma logo.png" alt="">
+                        <p>Figma</p>
+                    </div>
+                    
                     <div class="col m-4"><img src="img/logo/HTML.png" alt="">
                         <p>HTML</p>
                     </div>
                     <div class="col m-4"><img src="img/logo/CSS.png" alt="">
                         <p>CSS</p>
                     </div>
+
+
                     <div class="col m-4"><img src="img/logo/bootstrap-logo-shadow.png" alt="">
                         <p>Bootstrap5</p>
+                    </div>
+                    <div class="col m-4"><img src="img/logo/GitHub-Mark.svg" alt="">
+                        <p>Github</p>
                     </div>
                     <div class="col m-4"><img src="img/logo/draw_FILL0_wght400_GRAD0_opsz48.svg" alt="">
                         <p>Design</p>
@@ -244,9 +256,9 @@
         </div>
 
         <div class="list " id="section3" >
-            <button type="button" class="btn btn-light">UI/UX 設計 <br>HTML、CSS</button>
-            <button type="button" class="btn btn-light">平面設計排版</button>
-            <button type="button" class="btn btn-light">圖樣設計繪製</button>
+            <a href="/"><button type="button" class="btn btn-light">UI/UX 設計 <br>HTML、CSS</button></a>
+            <a href="graphic_design.html"><button type="button" class="btn btn-light">平面設計排版 </button></a>
+            <a href="pattern_drawing.html"><button type="button" class="btn btn-light">圖樣設計繪製</button></a>
         </div>
     </main>
 

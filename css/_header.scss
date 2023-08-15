@@ -20,7 +20,7 @@ main {
 
 
 
-
+button{display: none;}
 
 
 
@@ -85,6 +85,7 @@ main {
 
     }
 
+   
 
 
 }
@@ -183,7 +184,7 @@ footer {
 
 
 //媒體查詢
-@media(max-width:  1300px){
+@media(max-width: 1300px){
 
     .title_01{
         height: 600px;
@@ -230,3 +231,23 @@ footer {
 
 
 }
+
+@media(max-width:1000px){
+    // .navbar{background-color: brown;}
+
+    button{display: flex;}
+
+    button:hover {
+background-color: aqua;
+
+    }
+
+.nav{
+    display: none;
+}
+
+
+  
+}
+
+

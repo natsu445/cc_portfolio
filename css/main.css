@@ -79,6 +79,10 @@ main {
   left: 30%;
 }
 
+button {
+  display: none;
+}
+
 .container {
   max-width: 1920px;
   height: auto;
@@ -190,6 +194,17 @@ footer p {
     margin: 20px;
   }
 }
+@media (max-width: 1000px) {
+  button {
+    display: flex;
+  }
+  button:hover {
+    background-color: aqua;
+  }
+  .nav {
+    display: none;
+  }
+}
 .title_33 {
   max-width: 1920px;
   height: 500px;
@@ -261,10 +276,6 @@ footer p {
   height: 30%;
   border-radius: 0%;
   margin-right: 10px;
-}
-
-.container_graphic .row {
-  background-color: chartreuse;
 }
 
 .title_33 {

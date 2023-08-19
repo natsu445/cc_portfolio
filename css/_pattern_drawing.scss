@@ -1,0 +1,68 @@
+.pd_top {
+    width:auto;
+    height: 100%;
+    margin: 20vh  auto  ;
+    // background-color: aqua;
+    display: flex;
+    justify-content: center;
+
+    
+svg{
+
+
+    width: auto;
+    height: 15vh;
+    object-fit: cover;
+}
+
+
+}
+
+
+
+
+
+.pd_package{
+
+// background-color: coral;
+display: flex;
+height: auto;
+
+
+
+
+
+.pd_package_lift{
+height: 100%;
+width: 80vh;
+
+}
+
+
+.pd_package_right{
+
+// background-color: chartreuse;
+width: 50vh;
+height: auto;
+margin-top: 10vh;
+margin-bottom: 5vh;
+
+padding: 20px;
+
+svg{
+    width: auto;
+    height: 10vh;
+    margin: auto 0;
+}
+
+img{
+    width:100%;
+    height: auto;
+}
+
+
+}
+
+
+
+}

@@ -23,19 +23,19 @@
 .container_me {
   display: flex;
   background-color: #F1F2F3;
-  border-radius: 0 300px 0 0;
+  border-radius: 0 100px 0 0;
   background-size: cover;
   -o-object-fit: cover;
      object-fit: cover;
   width: 80%;
 }
 .container_me .boku_img {
-  width: 40vh;
-  height: 40vh;
+  width: 30vh;
+  height: 30vh;
   background-image: url(../img/667CF5CE-0C3B-401D-87DB-08D00C4E2966.jpg);
   background-size: cover;
   border-radius: 50%;
-  margin: 50px 0;
+  margin: auto 0;
   margin-left: 100px;
   overflow: hidden;
 }
@@ -157,4 +157,186 @@ footer p {
   justify-content: center;
   align-items: center;
   padding-right: 150px;
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 10px;
+  margin: auto 200px auto 50px;
+}
+
+.image-item {
+  overflow: hidden;
+}
+
+.image-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.title_graphic {
+  max-width: 1920px;
+  height: 500px;
+}
+.title_graphic .title_graphic_naka {
+  display: flex;
+  display: inline-block;
+  position: absolute;
+  width: 50%;
+  height: auto;
+  top: 20%;
+  left: 40%;
+}
+.title_graphic svg {
+  width: 30%;
+  height: auto;
+  display: flex;
+}
+
+.swiper {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.books {
+  height: auto;
+}
+.books .book_01,
+.books .book_02,
+.books .book_03 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-top: 15vh;
+  margin-right: 15vh;
+  margin-bottom: 15vh;
+}
+.books .book_01 .left,
+.books .book_02 .left,
+.books .book_03 .left {
+  height: auto;
+  width: 60vh;
+  background-color: aqua;
+  display: flex;
+  display: inline-block;
+}
+.books .book_01 .left img,
+.books .book_02 .left img,
+.books .book_03 .left img {
+  width: auto;
+  height: 80vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  box-shadow: 2px 0px 17px 0px rgba(1, 1, 1, 0.14);
+}
+.books .book_01 .bookright,
+.books .book_02 .bookright,
+.books .book_03 .bookright {
+  width: 100%;
+  height: 100%;
+}
+.books .book_01 .bookright .swiper,
+.books .book_02 .bookright .swiper,
+.books .book_03 .bookright .swiper {
+  width: 120vh;
+  height: 100%;
+  margin: 0 auto;
+}
+.books .book_01 .bookright .swiper-slide,
+.books .book_02 .bookright .swiper-slide,
+.books .book_03 .bookright .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.books .book_01 .bookright .swiper-slide img,
+.books .book_02 .bookright .swiper-slide img,
+.books .book_03 .bookright .swiper-slide img {
+  width: 100%;
+  height: 50%;
+  border-radius: 0%;
+  margin-right: 10px;
+}
+
+.pd_top {
+  width: auto;
+  height: 100%;
+  margin: 20vh auto;
+  display: flex;
+  justify-content: center;
+}
+.pd_top svg {
+  width: auto;
+  height: 15vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.pd_package {
+  display: flex;
+  height: auto;
+}
+.pd_package .pd_package_lift {
+  height: 100%;
+  width: 80vh;
+}
+.pd_package .pd_package_right {
+  width: 50vh;
+  height: auto;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  padding: 20px;
+}
+.pd_package .pd_package_right svg {
+  width: auto;
+  height: 10vh;
+  margin: auto 0;
+}
+.pd_package .pd_package_right img {
+  width: 100%;
+  height: auto;
 }/*# sourceMappingURL=main.css.map */

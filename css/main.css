@@ -335,6 +335,25 @@ footer p {
   width: 0;
 }
 
+.e_sho_top_a {
+  width: 30vw;
+  margin: 0 auto;
+  margin-top: 0;
+  margin-left: 65vh;
+}
+
+.e_sho_top_b {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin-bottom: 200px;
+}
+.e_sho_top_b img {
+  margin: 0 10px;
+  height: 10vh;
+}
+
 .e_sho {
   margin-right: 200px;
   margin-left: 50px;
@@ -393,7 +412,8 @@ footer p {
 }
 .books .book_01,
 .books .book_02,
-.books .book_03 {
+.books .book_03,
+.books .book_04 {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -403,7 +423,8 @@ footer p {
 }
 .books .book_01 .left,
 .books .book_02 .left,
-.books .book_03 .left {
+.books .book_03 .left,
+.books .book_04 .left {
   height: auto;
   width: 60vh;
   background-color: aqua;
@@ -412,7 +433,8 @@ footer p {
 }
 .books .book_01 .left img,
 .books .book_02 .left img,
-.books .book_03 .left img {
+.books .book_03 .left img,
+.books .book_04 .left img {
   width: auto;
   height: 80vh;
   -o-object-fit: cover;
@@ -421,20 +443,23 @@ footer p {
 }
 .books .book_01 .bookright,
 .books .book_02 .bookright,
-.books .book_03 .bookright {
+.books .book_03 .bookright,
+.books .book_04 .bookright {
   width: 100%;
   height: 100%;
 }
 .books .book_01 .bookright .swiper,
 .books .book_02 .bookright .swiper,
-.books .book_03 .bookright .swiper {
+.books .book_03 .bookright .swiper,
+.books .book_04 .bookright .swiper {
   width: 120vh;
   height: 100%;
   margin: 0 auto;
 }
 .books .book_01 .bookright .swiper-slide,
 .books .book_02 .bookright .swiper-slide,
-.books .book_03 .bookright .swiper-slide {
+.books .book_03 .bookright .swiper-slide,
+.books .book_04 .bookright .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -444,7 +469,8 @@ footer p {
 }
 .books .book_01 .bookright .swiper-slide img,
 .books .book_02 .bookright .swiper-slide img,
-.books .book_03 .bookright .swiper-slide img {
+.books .book_03 .bookright .swiper-slide img,
+.books .book_04 .bookright .swiper-slide img {
   width: 100%;
   height: 50%;
   border-radius: 0%;
@@ -452,9 +478,9 @@ footer p {
 }
 .books .book_01 .bookright .text-with-color,
 .books .book_02 .bookright .text-with-color,
-.books .book_03 .bookright .text-with-color {
+.books .book_03 .bookright .text-with-color,
+.books .book_04 .bookright .text-with-color {
   display: flex;
-  width: 30vh;
   margin: 0 auto;
   margin-right: 4vh;
   margin-bottom: 20vh;
@@ -462,17 +488,63 @@ footer p {
 }
 .books .book_01 .bookright .text-with-color p,
 .books .book_02 .bookright .text-with-color p,
-.books .book_03 .bookright .text-with-color p {
+.books .book_03 .bookright .text-with-color p,
+.books .book_04 .bookright .text-with-color p {
   margin-top: 0;
   margin-bottom: 0rem;
-  width: 30%;
 }
 .books .book_01 .bookright .text-with-color .color-block,
 .books .book_02 .bookright .text-with-color .color-block,
-.books .book_03 .bookright .text-with-color .color-block {
-  width: 16vh; /* 色塊的寬度 */
-  height: auto; /* 色塊的高度 */
-  background-color: #d2d2d2; /* 色塊的顏色 */
+.books .book_03 .bookright .text-with-color .color-block,
+.books .book_04 .bookright .text-with-color .color-block {
+  width: 16vh;
+  /* 色塊的寬度 */
+  height: auto;
+  /* 色塊的高度 */
+  background-color: #d2d2d2;
+  /* 色塊的顏色 */
+  margin-left: 30px;
+}
+.books .book_05 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.books .book_05 .left {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.books .book_05 .left img {
+  width: auto;
+  height: 80vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  box-shadow: 2px 0px 17px 0px rgba(1, 1, 1, 0.14);
+}
+.books .bookright img {
+  width: 100%;
+  height: 30vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.books .bookright .text-with-color {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 63%;
+  justify-content: flex-end;
+}
+.books .bookright .text-with-color p {
+  margin-top: 0;
+  margin-bottom: 0rem;
+}
+.books .bookright .text-with-color .color-block {
+  width: 16vh;
+  /* 色塊的寬度 */
+  height: auto;
+  /* 色塊的高度 */
+  background-color: #d2d2d2;
+  /* 色塊的顏色 */
   margin-left: 30px;
 }
 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_圖層_2" data-name="圖層 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 209.74 209.74">
+  <defs>
+    <clipPath id="clippath">
+      <circle cx="104.87" cy="104.87" r="104.87" style="fill: none;"/>
+    </clipPath>
+  </defs>
+  <g id="_圖層_1-2" data-name="圖層 1">
+    <g>
+      <circle cx="104.87" cy="104.87" r="104.87" style="fill: #c75548;"/>
+      <circle cx="104.87" cy="104.87" r="98.09" style="fill: #fef5eb;"/>
+      <circle cx="104.87" cy="104.87" r="94.43" style="fill: #c75548;"/>
+      <circle cx="104.87" cy="104.87" r="90" style="fill: #fef5eb;"/>
+      <g style="clip-path: url(#clippath);">
+        <rect y="160.7" width="202.96" height="49.04" style="fill: #c75548;"/>
+      </g>
+      <text transform="translate(54.18 189.67)" style="fill: #fff; font-family: GenSenRoundedTW-B, &apos;GenSenRounded TW&apos;; font-size: 25.75px; letter-spacing: .05em;"><tspan x="0" y="0">On Sale</tspan></text>
+      <text transform="translate(29.08 100.68)" style="fill: #fff; font-family: GenSenRoundedTW-B, &apos;GenSenRounded TW&apos;; font-size: 46.94px; letter-spacing: .05em; stroke: #c75548; stroke-linecap: round; stroke-linejoin: round; stroke-width: 7px;"><tspan x="0" y="0">好心情</tspan></text>
+      <text transform="translate(29.08 100.68)" style="fill: #fff; font-family: GenSenRoundedTW-B, &apos;GenSenRounded TW&apos;; font-size: 46.94px; letter-spacing: .05em;"><tspan x="0" y="0">好心情</tspan></text>
+      <text transform="translate(37.77 134.59)" style="fill: #c75548; font-family: GenSenRoundedTW-L, &apos;GenSenRounded TW&apos;; font-size: 23.46px;"><tspan x="0" y="0">I don&apos;t know</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -56,6 +56,10 @@
   margin-top: 50px;
 }
 
+.container_history {
+  width: 130vh;
+}
+
 .expertise {
   margin-top: 200px;
   padding-right: 0px;
@@ -272,6 +276,11 @@ html {
   box-sizing: inherit;
 }
 
+main {
+  margin-right: 20vh;
+  margin-left: 5vh;
+}
+
 nav {
   z-index: 50;
   position: fixed;
@@ -339,7 +348,6 @@ footer p {
   width: 30vw;
   margin: 0 auto;
   margin-top: 0;
-  margin-left: 65vh;
 }
 
 .e_sho_top_b {
@@ -354,10 +362,6 @@ footer p {
   height: 10vh;
 }
 
-.e_sho {
-  margin-right: 200px;
-  margin-left: 50px;
-}
 .e_sho .row {
   align-items: center;
 }
@@ -427,7 +431,6 @@ footer p {
 .books .book_04 .left {
   height: auto;
   width: 60vh;
-  background-color: aqua;
   display: flex;
   display: inline-block;
 }
@@ -452,7 +455,7 @@ footer p {
 .books .book_02 .bookright .swiper,
 .books .book_03 .bookright .swiper,
 .books .book_04 .bookright .swiper {
-  width: 120vh;
+  width: 110vh;
   height: 100%;
   margin: 0 auto;
 }
@@ -482,7 +485,6 @@ footer p {
 .books .book_04 .bookright .text-with-color {
   display: flex;
   margin: 0 auto;
-  margin-right: 4vh;
   margin-bottom: 20vh;
   justify-content: flex-end;
 }
@@ -517,7 +519,7 @@ footer p {
 }
 .books .book_05 .left img {
   width: auto;
-  height: 80vh;
+  height: 70vh;
   -o-object-fit: cover;
      object-fit: cover;
   box-shadow: 2px 0px 17px 0px rgba(1, 1, 1, 0.14);
@@ -562,27 +564,40 @@ footer p {
      object-fit: cover;
 }
 
-.pd_package {
+.pd {
   display: flex;
   height: auto;
+  margin: 50px 0;
 }
-.pd_package .pd_package_lift {
+.pd .pd_lift {
   height: 100%;
   width: 80vh;
 }
-.pd_package .pd_package_right {
+.pd .pd_right {
   width: 50vh;
   height: auto;
   margin-top: 10vh;
   margin-bottom: 5vh;
+  margin-left: 20vh;
   padding: 20px;
 }
-.pd_package .pd_package_right svg {
+.pd .pd_right svg {
   width: auto;
   height: 10vh;
   margin: auto 0;
 }
-.pd_package .pd_package_right img {
+.pd .pd_right img {
   width: 100%;
   height: auto;
+}
+
+.pack, .light_box {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+.pack img, .light_box img {
+  width: auto;
+  height: 60vh;
+  margin: auto 2vh;
 }/*# sourceMappingURL=main.css.map */

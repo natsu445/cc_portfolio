@@ -93,7 +93,7 @@
     .left {
       height: auto;
       width: 60vh;
-      background-color: aqua;
+      // background-color: aqua;
       display: flex;
       display: inline-block;
 
@@ -116,7 +116,7 @@
 
       .swiper {
 
-        width: 120vh;
+        width: 110vh;
         height: 100%;
         margin: 0 auto;
 
@@ -147,7 +147,7 @@
 
         // width: 30vh;
         margin: 0 auto;
-        margin-right: 4vh;
+        // margin-right: 4vh;
         margin-bottom: 20vh;
         justify-content: flex-end;
         // background-color: aquamarine;
@@ -191,7 +191,7 @@
 
       img{
         width: auto;
-        height: 80vh;
+        height: 70vh;
         object-fit: cover;
         box-shadow: 2px 0px 17px 0px rgb(1 1 1 / 14%);
 
@@ -204,7 +204,7 @@
 
   .bookright{
        
-       
+     
 
     img{
       width: 100%;
@@ -216,12 +216,9 @@
 
       display: flex;
 
-      // width: 30vh;
       margin: 0 auto;
-      // margin-right: 4vh;
       margin-bottom: 63%;
       justify-content: flex-end;
-      // background-color: aquamarine;
 
 
       p {

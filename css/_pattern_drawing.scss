@@ -22,31 +22,32 @@
 
 
 
-.pd_package {
+.pd {
 
-    // background-color: coral;
+
     display: flex;
     height: auto;
+    margin: 50px 0;
 
 
 
 
-
-    .pd_package_lift {
+    .pd_lift {
         height: 100%;
         width: 80vh;
+
 
     }
 
 
-    .pd_package_right {
+    .pd_right {
 
-        // background-color: chartreuse;
+
         width: 50vh;
         height: auto;
         margin-top: 10vh;
         margin-bottom: 5vh;
-
+        margin-left: 20vh;
         padding: 20px;
 
         svg {
@@ -65,4 +66,25 @@
 
 
 
+
+
+
+
+}
+
+
+
+
+.pack,.light_box {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+
+    img {
+        width: auto;
+        height: 60vh;
+        margin: auto 2vh;
+
+
+    }
 }

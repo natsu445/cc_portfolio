@@ -550,6 +550,14 @@ footer p {
   margin-left: 30px;
 }
 
+.construction {
+  display: flex;
+  justify-content: center;
+}
+.construction img {
+  margin: 20vh auto;
+}
+
 .pd_top {
   width: auto;
   height: 100%;

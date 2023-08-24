@@ -1,0 +1,351 @@
+
+.title_boku {
+    svg {
+        width: 30%;
+        height: auto;
+        display: flex;
+        position: absolute;
+        top: 40%;
+        left: 30%;
+        // background-color: aqua;
+    }
+
+    max-width: 1920px;
+    height: 1080px;
+}
+
+
+
+//關於我 
+
+.container {
+    max-width: 1920px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    // background-color: rgb(219, 146, 146);
+    
+
+}
+
+
+
+
+.container_me {
+    display: flex;
+    background-color: #F1F2F3;
+    border-radius: 0 100px 0 0;
+    background-size: cover;
+    object-fit: cover;
+    width: 80%;    
+    // position: relative;
+    // background-color: burlywood;
+
+    .boku_img {
+        width: 30vh;
+        height: 30vh;
+        // background-color: aquamarine;
+        background-image: url(../img/667CF5CE-0C3B-401D-87DB-08D00C4E2966.jpg);
+        background-size: cover;
+        border-radius: 50%;
+        margin: auto 0;
+        margin-left: 100px;
+        overflow: hidden;
+
+    }
+
+    .boku_txt {
+
+        // background-color: rgb(163, 163, 163);
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        margin:150px auto;
+   
+
+    }
+
+   
+
+
+}
+
+.container_work {
+
+    // background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 1000px;
+    margin-top: 50px;
+
+
+
+    // .col {
+    //     width: 300px;
+    //     border-left: #727272 1px solid;
+    // }
+
+    
+
+}
+
+
+.container_history {
+ 
+        width: 130vh;
+   
+}
+
+
+//核心工具/擅長工具
+
+.expertise {
+    margin-top: 200px;
+    // background-color: aquamarine;
+    padding-right: 0px;
+
+    .expertise_top {
+        text-align: center;
+
+    }
+
+    .container {
+        text-align: center;
+
+    }
+
+    svg {
+        width: 50px;
+        height: 50px;
+    }
+
+    img {
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+
+//漢堡
+.navbar-toggler {
+    display: none;
+}
+
+
+
+//按鈕
+
+
+.list {
+    width: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    // background-color: aqua;
+
+
+    button {
+        margin: 80px;
+        font-size: 2vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//手機板------------------------------------------------------------------------
+// .phone{
+//     display: none;
+// }
+// @media screen and (max-width: 1280px) {
+//     @import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+    
+    
+    
+//     nav,
+//     main,
+//     footer {
+//         display: none;
+//     }
+//     .phone {
+//         display: block;
+//     }
+//     .phone_nav {
+//         width: 100%;
+//         height: 80px;
+//         padding: 0px 20px;
+//         background-color: #D2D2D2;
+//         display: flex;
+//         justify-content: space-between;
+//         align-items: center;
+//         position: fixed;
+//         top: 0;
+//         z-index: 50;
+  
+//         transition: background-color 0.3s ease;
+        
+//     }
+// .phone_nav.transparent{
+//     background-color: #d2d2d285;
+// }
+
+
+//     .phone_nav input {
+//         display: none;
+//     }
+//     .phone_nav .phone_bur {
+//         width: 60px;
+//         height: 50px;
+//         border: 2px solid #87878762;
+//         box-sizing: border-box;
+//         border-radius:5px;
+//     }
+//     .phone_nav .phone_bur .bur_line {
+//         border: 2px solid #878787;
+//         width: 40px;
+//         margin-top: 8px;
+//         margin-left: auto;
+//         margin-right: auto;
+//         border-radius: 300px;
+//     }
+
+//     #btn:checked + .phone_bur_menu {
+//         display: block;
+//     }
+//     #btn:checked ~ label .bur_line:nth-child(1) {
+//         transform: rotate(45deg);
+//         position: absolute;
+//         top: 30px;
+//         right: 30px;
+//     }
+//     #btn:checked ~ label .bur_line:nth-child(3) {
+//         transform: rotate(-45deg);
+//         position: absolute;
+//         top: 30px;
+//         right: 30px;
+//     }
+//     #btn:checked ~ label .bur_line:nth-child(even) {
+//         display: none;
+//     }
+//     .phone_bur_menu {
+//         position: absolute;
+//         top: 80px;
+//         left: 0;
+//         width: 100vw;
+//         height: 100vh;
+//         background-color: #fff;
+//         z-index: 999;
+//         padding: 50px;
+//         display: none;
+//     }
+
+//     .phone_bur_menu h1 {
+//         font-size: 30px;
+//     }
+//     .phone_bur_menu p {
+//         margin-top: 40px;
+//         font-size: 18px;
+//     }
+//     .phone_bur_menu li {
+//         font-size: 18px;
+//         margin-top: 20px;
+//     }
+//     .phone_logo .title_boku svg {
+//         width: 50%;
+//     }
+//     .phone_about > p {
+//         text-align: center;
+//     }
+//     .phone_about_card {
+//         background-color: #f1f2f3;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//     }
+//     .phone_about_card img {
+//         width: 300px;
+//         height: 300px;
+//         border-radius: 50%;
+//         margin-top: 50px;
+//     }
+//     .phone_about_card p:nth-child(2) {
+//         margin-top: 30px;
+//     }
+//     .phone_about_card p:nth-child(3) {
+//         margin-top: 30px;
+//     }
+//     .phone_about_card p:nth-child(4) {
+//         margin-top: -10px;
+//     }
+//     .phone_exp > p {
+//         text-align: center;
+//     }
+//     .phone_exp_card {
+//         margin-top: 50px;
+//         font-weight: 500;
+//     }
+//     .phone_exp_up {
+//         width: 80vw;
+//         height: 30px;
+//         background-color: #d2d2d2;
+//         margin-left: auto;
+//         margin-right: auto;
+//         border-radius: 30px 30px 0px 0px;
+//     }
+//     .phone_exp_card_text {
+//         width: 80vw;
+//         background-color: #f1f2f3;
+//         margin-left: auto;
+//         margin-right: auto;
+//         text-align: center;
+//         padding-top: 20px;
+//         padding-bottom: 20px;
+//         border-radius: 0px 0px 30px 30px;
+//         font-family: ‘cwTeXYen’, sans-serif;
+//     }
+//     .phone_exp_card_text p:nth-child(2),
+//     .phone_exp_card_text p:nth-child(3) {
+//         margin-top: -14px;
+//     }
+//     .phone_tool > p {
+//         text-align: center;
+//     }
+//     .phone_tool_card {
+//         width: 100px;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         /* background-color: red; */
+//     }
+//     .phone_tool_card > img {
+//         width: 50px;
+//     }
+//     .phone_tool_card_group {
+//         display: flex;
+//         flex-wrap: wrap;
+//         justify-content: center;
+//     }
+// }

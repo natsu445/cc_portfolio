@@ -1,0 +1,243 @@
+.title_graphic {
+
+
+  .title_graphic_naka {
+
+
+    // background-color: aqua;
+    display: flex;
+    display: inline-block;
+    position: absolute;
+    width: 50%;
+    height: auto;
+
+
+    top: 20%;
+    left: 40%;
+
+  }
+
+
+
+  svg {
+    width: 30%;
+    height: auto;
+    display: flex;
+
+    // background-color: rgb(88, 84, 69);
+
+  }
+
+  max-width: 1920px;
+  height: 500px;
+}
+
+
+
+
+
+
+//輪播圖
+
+.swiper {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+
+
+
+//內頁
+
+.books {
+
+  height: auto;
+  // background-color: blueviolet;
+
+
+
+  .book_01,
+  .book_02,
+  .book_03,
+  .book_04 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+
+    margin-top: 15vh;
+    margin-right: 15vh;
+    margin-bottom: 15vh;
+
+    .left {
+      height: auto;
+      width: 60vh;
+      // background-color: aqua;
+      display: flex;
+      display: inline-block;
+
+    }
+
+    .left img {
+      width: auto;
+      height: 80vh;
+      object-fit: cover;
+
+      box-shadow: 2px 0px 17px 0px rgb(1 1 1 / 14%);
+    }
+
+
+
+
+    .bookright {
+      width: 100%;
+      height: 100%;
+
+      .swiper {
+
+        width: 110vh;
+        height: 100%;
+        margin: 0 auto;
+
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      }
+
+      .swiper-slide img {
+        width: 100%;
+        height: 50%;
+        border-radius: 0%;
+        margin-right: 10px;
+
+      }
+
+
+      .text-with-color {
+
+        display: flex;
+
+        // width: 30vh;
+        margin: 0 auto;
+        // margin-right: 4vh;
+        margin-bottom: 20vh;
+        justify-content: flex-end;
+        // background-color: aquamarine;
+
+
+        p {
+          margin-top: 0;
+          margin-bottom: 0rem;
+          // width: 30%;
+        }
+
+        .color-block {
+          width: 16vh;
+          /* 色塊的寬度 */
+          height: auto;
+          /* 色塊的高度 */
+          background-color: #d2d2d2;
+          /* 色塊的顏色 */
+          margin-left: 30px;
+        }
+      }
+
+
+    }
+
+
+
+  }
+
+
+
+  .book_05{
+   display: flex;
+   flex-direction: row;
+   align-items: flex-end;
+
+    .left {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+
+      img{
+        width: auto;
+        height: 70vh;
+        object-fit: cover;
+        box-shadow: 2px 0px 17px 0px rgb(1 1 1 / 14%);
+
+      }
+
+      
+    }
+  }
+
+
+  .bookright{
+       
+     
+
+    img{
+      width: 100%;
+      height: 30vh;
+      object-fit: cover;
+    }
+
+    .text-with-color {
+
+      display: flex;
+
+      margin: 0 auto;
+      margin-bottom: 63%;
+      justify-content: flex-end;
+
+
+      p {
+        margin-top: 0;
+        margin-bottom: 0rem;
+        // width: 30%;
+      }
+
+      .color-block {
+        width: 16vh;
+        /* 色塊的寬度 */
+        height: auto;
+        /* 色塊的高度 */
+        background-color: #d2d2d2;
+        /* 色塊的顏色 */
+        margin-left: 30px;
+      }
+    }
+
+
+  }
+}

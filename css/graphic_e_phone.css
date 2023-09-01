@@ -1,0 +1,234 @@
+@media screen and (max-width: 1280px) {
+    @import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+    nav,
+    main,
+    footer {
+        display: none;
+    }
+    .phone {
+        display: block;
+    }
+    /* 導覽列 */
+    .phone_nav {
+        width: 100%;
+        height: 80px;
+        padding: 0px 20px;
+        background-color: #d2d2d2;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        z-index: 50;
+        transition: background-color 0.3s ease;
+    }
+    .phone_nav.transparent {
+        background-color: rgba(210, 210, 210, 0.5215686275);
+    }
+    .phone_nav input {
+        display: none;
+    }
+    .phone_nav .phone_bur {
+        width: 60px;
+        height: 50px;
+        border: 2px solid rgba(135, 135, 135, 0.3843137255);
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+    .phone_nav .phone_bur .bur_line {
+        border: 2px solid #878787;
+        width: 40px;
+        margin-top: 8px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 300px;
+    }
+    #btn:checked + .phone_bur_menu {
+        display: block;
+    }
+    #btn:checked ~ label .bur_line:nth-child(1) {
+        transform: rotate(45deg);
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+    #btn:checked ~ label .bur_line:nth-child(3) {
+        transform: rotate(-45deg);
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+    #btn:checked ~ label .bur_line:nth-child(even) {
+        display: none;
+    }
+    .phone_bur_menu {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #fff;
+        z-index: 999;
+        padding: 50px;
+        display: none;
+    }
+    .phone_bur_menu h1 {
+        font-size: 30px;
+    }
+    .phone_bur_menu p {
+        margin-top: 40px;
+        font-size: 18px;
+    }
+    .phone_bur_menu li {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    /* 文案開始 */
+    .phone_graphice_decorate {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        /* background-color: red; */
+        height: 150px;
+    }
+    .phone_graphice_decorate > img {
+        width: 90%;
+        object-fit: contain;
+    }
+    .phone_graphice_headword {
+        text-align: center;
+        margin-top: 250px;
+    }
+    .phone_graphice_pic_item {
+        display: flex;
+        justify-content: center;
+        /* background-color: red; */
+    }
+
+    .phone_graphice_pic_item > img:nth-child(odd) {
+        width: 15%;
+    }
+    .phone_graphice_pic_item > img:nth-child(even) {
+        width: 35%;
+        margin-top: 5%;
+        margin-left: 30px;
+    }
+    .phone_graphice_pic_item2 {
+        display: flex;
+        justify-content: center;
+    }
+    .phone_graphice_pic_item2 img {
+        width: 55%;
+        margin-bottom: 200px;
+    }
+    /* 內容開始 */
+    .phone_graphice_title {
+        margin-top: 50px;
+        background-color: #ccc;
+        width: 55%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .phone_graphice_title > h1 {
+        font-size: 20px;
+    }
+    .phone_graphice_title > p {
+        font-size: 15px;
+    }
+    .phone_graphice_wrap {
+        width: 55%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+    }
+
+    /* 兩張圖 */
+    .phone_graphice_wrap img:nth-child(1),
+    img:nth-child(2),
+    img:nth-child(3),
+    img:nth-child(4) {
+        margin-top: 10px;
+        width: 48%;
+        margin-left: 1%;
+    }
+    .phone_graphice_wrap img:nth-child(4) {
+        width: 48%;
+    }
+
+    /* 三張圖 */
+    .phone_graphice_wrap img:nth-child(5),
+    img:nth-child(6),
+    img:nth-child(7),
+    .square,
+    img:nth-child(9),
+    img:nth-child(10),
+    img:nth-child(11) {
+        margin-top: 10px;
+        width: 33%;
+        margin-left: 1%;
+    }
+    .square {
+        width: 31%;
+        background-color: #ccc;
+    }
+    /* 一張圖 */
+    .phone_graphice_wrap img:nth-child(8),
+    img:nth-child(12) {
+        width: 99%;
+        margin-left: 1%;
+        margin-top: 10px;
+    }
+    .phone_graphice_wrap2 {
+        width: 55%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        /* background-color: red; */
+    }
+    /* 兩張圖 */
+    .phone_graphice_wrap2 > img:nth-child(1),
+    img:nth-child(2),
+    img:nth-child(9),
+    img:nth-child(10),
+    img:nth-child(11),
+    img:nth-child(12),
+    img:nth-child(13),
+    img:nth-child(14),
+    img:nth-child(21),
+    img:nth-child(22) {
+        margin-top: 10px;
+        width: 49%;
+        margin-left: 1%;
+    }
+    /* 三張圖 */
+    .phone_graphice_wrap2 > img:nth-child(3),
+    img:nth-child(4),
+    img:nth-child(5),
+    img:nth-child(15),
+    img:nth-child(16),
+    img:nth-child(17),
+    img:nth-child(18),
+    img:nth-child(19),
+    img:nth-child(20) {
+        margin-top: 10px;
+        width: 32%;
+        margin-left: 1.3%;
+    }
+    /* 一張圖 */
+    .phone_graphice_wrap2 > img:nth-child(6),
+    img:nth-child(7),
+    img:nth-child(8) {
+        width: 99%;
+        margin-left: 1%;
+        margin-top: 10px;
+    }
+}

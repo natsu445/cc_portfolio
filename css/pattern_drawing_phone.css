@@ -8,7 +8,6 @@
     .phone {
         display: block;
     }
-    /* 導覽列 */
     .phone_nav {
         width: 100%;
         height: 80px;
@@ -83,76 +82,79 @@
         font-size: 18px;
         margin-top: 20px;
     }
-    /* 內容 */
-    .phone_title {
-        width: 500px;
-        margin-top: 400px;
-        margin-bottom: 300px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .phone_title h1,
-    h2 {
+    .phone_pattern_title {
         text-align: center;
+        margin-top: 380px;
     }
-    .phone_title img {
-        width: 30%;
-        margin-left: 10px;
-        margin-top: 10px;
-        border-radius: 10px;
+    .phone_pattern_titlepic > .pd_top {
+        width: 80%;
+        margin-top: 200px;
     }
-    .phone_title .pic {
+
+    .phone_pattern_item {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        height: 400px;
-        flex-direction: row;
-        overflow-y: scroll;
-    }
-    ::-webkit-scrollbar {
-        display: none;
-    }
-    .phone_item_text {
-        margin-top: 100px;
-        display: flex;
-        width: 450px;
-        /* background-color: red; */
         margin-left: auto;
         margin-right: auto;
-        text-align: center;
         justify-content: space-between;
+        /* background-color: red; */
+        width: 70%;
+        margin-top: 80px;
     }
-    .phone_item_text > p {
-        font-size: 15px;
-        line-height: 22px;
-        font-weight: 400;
-        letter-spacing: 0.75px;
-        color: rgba(229, 229, 229, 1);
+    .phone_pattern_item > .rectangle {
+        width: 30vw;
+        height: 30px;
+        background-color: #ccc;
     }
-    .phone_item_text .rectangle {
-        width: 130px;
-        height: 24px;
-        background-color: rgba(229, 229, 229, 1);
+    .phone_pattern_item > p {
+        margin-top: 6px;
+        font-size: 18px;
+        color: #ccc;
+        line-height: 20px;
     }
-    .phone_item .phone_item_mainpic {
-        width: 450px;
+    .phone_pattern_itempic {
         margin-right: auto;
         margin-left: auto;
+        width: 75%;
+        /* background-color: red; */
     }
-    .phone_item .phone_item_mainpic > img {
+    .phone_pattern_itempic > img {
+        margin-top: 10px;
         width: 100%;
     }
-    .phone_item .phone_item_otherpic {
+    .phone .phone_pattern_itempic2 {
         display: flex;
-        width: 450px;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .phone .phone_pattern_itempic2 > img {
+        width: 35%;
+    }
+    .phone_pattern_itempic3 {
         margin-right: auto;
         margin-left: auto;
-        justify-content: space-between;
+        margin-top: 200px;
+        width: 200px;
+        height: 500px;
+        background-color: #ccc;
+        position: relative;
     }
-    .phone_item .other1 > img {
-        width: 32%;
+
+    .phone_pattern_itempic3 > img:first-child {
+        position: absolute;
+        width: 120%;
+        top: -150px;
+        left: -120px;
     }
-    .phone_item .other2 > img {
-        width: 49%;
+    .phone_pattern_itempic3 > img:last-child {
+        position: absolute;
+        width: 100%;
+        top: 350px;
+        left: 120px;
+    }
+    .phone_bottom {
+        width: 100%;
+        height: 100px;
+        /* background-color: red; */
+        margin-top: 200px;
     }
 }

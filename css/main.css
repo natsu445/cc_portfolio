@@ -416,6 +416,7 @@ footer p {
 .pd .pd_lift {
   height: 100%;
   width: 80vh;
+  margin-left: 10vh;
 }
 .pd .pd_right {
   width: 50vh;

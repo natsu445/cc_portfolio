@@ -394,6 +394,19 @@ footer p {
   margin: 20vh auto;
 }
 
+.fl_ui {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.fl_ui .flgif {
+  width: 33%;
+  height: auto;
+  position: absolute;
+  bottom: 48.6vh;
+  left: 11.6vh;
+}
+
 .pd_top {
   width: auto;
   height: 100%;

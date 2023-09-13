@@ -394,17 +394,35 @@ footer p {
   margin: 20vh auto;
 }
 
+.edm_a {
+  display: flex;
+  flex-direction: column;
+}
+.edm_a img {
+  width: 80%;
+  height: auto;
+}
+.edm_a .edm_ar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .fl_ui {
   display: flex;
   flex-direction: column;
-  position: relative;
 }
 .fl_ui .flgif {
-  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fl_ui .flgif img {
+  width: 135%;
+}
+.fl_ui .flimg img {
+  width: 100%;
   height: auto;
-  position: absolute;
-  bottom: 48.6vh;
-  left: 11.6vh;
 }
 
 .pd_top {

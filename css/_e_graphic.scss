@@ -1,0 +1,93 @@
+
+.title_pattern {
+
+
+    .title_pattern_naka {
+
+
+        // background-color: aqua;
+        display: flex;
+        display: inline-block;
+        position: absolute;
+        width: 50%;
+        height: auto;
+
+
+        top: 20%;
+        left: 40%;
+
+    }
+
+
+
+    svg {
+        width: 30%;
+        height: auto;
+        display: flex;
+
+        // background-color: rgb(88, 84, 69);
+
+    }
+
+    max-width: 1920px;
+    height: 1079px;
+    background-color: blanchedalmond;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+//格子圖
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 10px;
+    margin: auto 150px auto 50px;
+  }
+  .image-item {
+    overflow: hidden;
+    
+  }
+  .image-item img {
+    max-width:100%;
+    height: auto;
+
+  }
+
+
+
+  
+
+//輪播圖
+.egswiper {
+    width: 50%;
+    height: auto;
+    margin: 100px auto;
+ 
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+}

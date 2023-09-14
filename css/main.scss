@@ -1,14 +1,6 @@
-@import'_global';
-@import'_header';
-@import'_graphic';
-@import'_pattern_drawing';
-
+@import'_header.scss';
+@import'_global.scss';
+@import'_graphic_e.scss';
+@import'_graphic.scss';
 @import'_uiux.scss';
-@import'_e_graphic';
-
-body{
-    
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    height: 100vh;
-}
+@import'_pattern_drawing.scss';

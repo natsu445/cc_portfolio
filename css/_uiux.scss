@@ -73,4 +73,93 @@ img{
 
 
 
+//手機板本
 
+
+
+
+@media screen and (max-width: 1280px) {
+    @import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+    nav,
+   
+    footer {
+        display: none;
+    }
+    .phone {
+        display: block;
+    }
+    .phone_nav {
+        width: 100%;
+        height: 80px;
+        padding: 0px 20px;
+        background-color: #d2d2d2;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        z-index: 50;
+        transition: background-color 0.3s ease;
+    }
+    .phone_nav.transparent {
+        background-color: rgba(210, 210, 210, 0.5215686275);
+    }
+    .phone_nav input {
+        display: none;
+    }
+    .phone_nav .phone_bur {
+        width: 60px;
+        height: 50px;
+        border: 2px solid rgba(135, 135, 135, 0.3843137255);
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+    .phone_nav .phone_bur .bur_line {
+        border: 2px solid #878787;
+        width: 40px;
+        margin-top: 8px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 300px;
+    }
+    #btn:checked + .phone_bur_menu {
+        display: block;
+    }
+    #btn:checked ~ label .bur_line:nth-child(1) {
+        transform: rotate(45deg);
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+    #btn:checked ~ label .bur_line:nth-child(3) {
+        transform: rotate(-45deg);
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+    #btn:checked ~ label .bur_line:nth-child(even) {
+        display: none;
+    }
+    .phone_bur_menu {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #fff;
+        z-index: 999;
+        padding: 50px;
+        display: none;
+    }
+    .phone_bur_menu h1 {
+        font-size: 30px;
+    }
+    .phone_bur_menu p {
+        margin-top: 40px;
+        font-size: 18px;
+    }
+    .phone_bur_menu li {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+}

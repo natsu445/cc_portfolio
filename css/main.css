@@ -117,6 +117,12 @@ main {
   margin-left: 5vh;
 }
 
+@media screen and (max-width: 1330px) {
+  main {
+    margin-right: 0px; /* 或者 margin-right: auto; */
+    margin-left: 0px; /* 或者 margin-left: auto; */
+  }
+}
 nav {
   z-index: 50;
   position: fixed;
@@ -170,9 +176,12 @@ footer p {
 }
 
 .scrollable-container {
-  max-height: 500px; /* 設定容器最大高度 */
-  overflow-y: auto; /* 垂直滾動條 */
-  overflow-x: hidden; /* 隱藏水平滾動條 */
+  max-height: 500px;
+  /* 設定容器最大高度 */
+  overflow-y: auto;
+  /* 垂直滾動條 */
+  overflow-x: hidden;
+  /* 隱藏水平滾動條 */
 }
 
 /* 隱藏右邊的滾軸 */
@@ -425,13 +434,10 @@ footer p {
   height: auto;
 }
 
-.phone {
-  display: none;
-}
-
 @media screen and (max-width: 1280px) {
   @import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
-  nav {
+  nav,
+  footer {
     display: none;
   }
   .phone {
@@ -510,9 +516,6 @@ footer p {
   .phone_bur_menu li {
     font-size: 18px;
     margin-top: 20px;
-  }
-  .phone_logo .title_boku svg {
-    width: 50%;
   }
 }
 .pd_top {

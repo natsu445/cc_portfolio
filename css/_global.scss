@@ -35,9 +35,24 @@ html {
 main {
   margin-right: 20vh;
   margin-left: 5vh;
+
+
 }
 
----------------------------------------------------------------------------- //導覽列
+
+// //手機板本
+// /* 当屏幕宽度小于1330px时覆盖样式 */
+@media screen and (max-width: 1330px){
+  main {
+    margin-right: 0px; /* 或者 margin-right: auto; */
+    margin-left: 0px; /* 或者 margin-left: auto; */
+  }
+}
+
+
+
+
+ //導覽列
 
 nav {
   z-index: 50;
@@ -144,3 +159,7 @@ footer {
 .scrollable-container::-webkit-scrollbar {
   width: 0;
 }
+
+
+
+

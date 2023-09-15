@@ -15,10 +15,3 @@ window.addEventListener("scroll", function() {
   
 
 
-
-
-
-
-
-  //網頁版 woo
-

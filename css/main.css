@@ -434,6 +434,10 @@ footer p {
   height: auto;
 }
 
+.phone_nav {
+  display: none;
+}
+
 @media screen and (max-width: 1280px) {
   @import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
   nav,

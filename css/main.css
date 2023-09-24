@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
 .index_body {
   background-color: #CBE3EF;
 }
@@ -202,6 +203,10 @@ footer p {
   justify-content: center;
   align-items: center;
   padding-right: 150px;
+}
+
+body {
+  font-family: ‘cwTeXYen’, sans-serif;
 }
 
 .scrollable-container {
@@ -444,7 +449,7 @@ footer p {
   margin: 30px 0 30px 0;
   padding: 30px 0 30px 0;
   position: relative;
-  background-image: url(/img/ui/edm_a_bg.png);
+  background-image: url(../img/ui/edm_a_bg.png);
   background-size: 40%;
   background-repeat: no-repeat;
   background-position: 100vh 35vh;
@@ -489,11 +494,13 @@ footer p {
   .phone {
     display: block;
   }
+  /* 導覽列 */
   .phone_nav {
     width: 100%;
     height: 80px;
     padding: 0px 20px;
-    background-color: #d2d2d2;
+    background-color: #F7F7FC;
+    color: #254E7A;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -502,8 +509,11 @@ footer p {
     z-index: 50;
     transition: background-color 0.3s ease;
   }
+  .phone_nav svg {
+    width: 80%;
+  }
   .phone_nav.transparent {
-    background-color: rgba(210, 210, 210, 0.5215686275);
+    background-color: #F7F7FC 210, 210, 210, 0.5215686275;
   }
   .phone_nav input {
     display: none;
